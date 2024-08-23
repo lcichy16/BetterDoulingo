@@ -38,4 +38,3 @@ public class UserController {
         return "redirect:/progress?userId=" + userProgress.getUserId();
     }
 }
-/
