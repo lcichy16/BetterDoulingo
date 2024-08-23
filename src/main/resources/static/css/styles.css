@@ -1,0 +1,212 @@
+/* Ogólne stylowanie */
+body {
+    background-color: #2b2b2b; /* Ciemnoszare tło */
+    color: #ffffff; /* Biały tekst */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Upewnia się, że padding i border nie wpływają na szerokość elementów */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Stylizacja nagłówka */
+header {
+    background-color: #333333; /* Ciemniejsze tło dla nagłówka */
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 30px; /* Upewnij się, że obrazek ma odpowiedni rozmiar */
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle; /* Wyrównanie obrazka do środka tekstu */
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar nav ul li a:hover {
+    color: #8e44ad; /* Fioletowy kolor na hover */
+}
+
+/* Stylizacja sekcji Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #4a4a4a; /* Trochę jaśniejsze tło dla sekcji hero */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #8e44ad; /* Fioletowy przycisk */
+    color: #ffffff;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #732d91; /* Ciemniejszy fiolet */
+}
+
+/* Sekcja „Dlaczego warto uczyć się włoskiego?” */
+.why-learn {
+    padding: 50px 20px;
+    background-color: #383838; /* Trochę jaśniejsze tło */
+    text-align: center;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Umożliwia łamanie wierszy */
+    margin-top: 30px;
+}
+
+.reason {
+    max-width: 300px;
+    margin: 20px;
+}
+
+.reason h3 {
+    margin-bottom: 15px;
+}
+
+.reason p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Sekcja „Jak to działa” */
+.how-it-works {
+    padding: 50px 20px;
+    background-color: #4a4a4a; /* Dalsze jaśnienie */
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Umożliwia łamanie wierszy */
+    margin-top: 30px;
+}
+
+.step {
+    max-width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.step img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.step h3 {
+    margin-bottom: 15px;
+}
+
+.step p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Sekcja z opiniami użytkowników */
+.testimonials {
+    padding: 50px 20px;
+    background-color: #383838;
+    text-align: center;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Umożliwia łamanie wierszy */
+    margin-top: 30px;
+}
+
+.testimonial {
+    max-width: 300px;
+    margin: 20px;
+}
+
+.testimonial p {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.testimonial h4 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Stylizacja stopki */
+footer {
+    background-color: #333333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #8e44ad; /* Fioletowy kolor na hover */
+}
+
+.navbar .logo img {
+    width: 50px; /* Dostosuj rozmiar w razie potrzeby */
+    height: auto;
+}

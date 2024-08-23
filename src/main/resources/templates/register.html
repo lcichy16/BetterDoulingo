@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejestracja - BetterDuolingo</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <img src="/images/italian-flag.svg" alt="Flaga Włoch">
+            <h2>BetterDuolingo</h2>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="form-container">
+        <h1>Zarejestruj się</h1>
+        <form action="/register" method="post">
+            <div class="form-group">
+                <label for="username">Nazwa użytkownika:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Hasło:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Zarejestruj się</button>
+        </form>
+        <p>Masz już konto? <a href="/login">Zaloguj się</a></p>
+    </div>
+</div>
+</body>
+</html>

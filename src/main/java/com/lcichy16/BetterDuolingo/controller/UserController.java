@@ -37,4 +37,10 @@ public class UserController {
     public String updateProgress(@ModelAttribute UserProgress userProgress) {
         return "redirect:/progress?userId=" + userProgress.getUserId();
     }
+    @GetMapping("/")
+    public String showHomePage() {
+        return "index"; // Plik index.html w folderze templates
+    }
+
 }
+
